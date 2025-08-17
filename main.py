@@ -13,6 +13,7 @@ class AnimalResponse(BaseModel):
     age: int
     adopted: bool
     health_status: str
+    
 
 animal_db = {
     1:{"id": 1, "name": "Рекст", "age": 3, "adopted": False, "health_status": "Healthy"},
